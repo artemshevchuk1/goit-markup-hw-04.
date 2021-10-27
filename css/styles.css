@@ -139,7 +139,6 @@ fill: currentColor;margin-right: 10px}
       rgba(0, 0, 0, 0.25)),
     url("../images/backgroun-title.jpg");
   max-width: 1600px;
-  height: 600px;
   background-size: cover;
   background-position: center;
   margin-left: auto;
@@ -190,7 +189,7 @@ fill: currentColor;margin-right: 10px}
 
 .about-as-icon{background-color:var(--light-background);
   background-size: cover;
-  margin:25px 100px;
+  
 }
 
 .about-as-sublist-icon{
@@ -200,7 +199,7 @@ fill: currentColor;margin-right: 10px}
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
- 
+  height: 120px;
 }
 
 .section-title {
@@ -380,8 +379,7 @@ border-radius: 4px;
 }
 
 .client-sublist-icon{
-  margin: 22px 65px 21px 65px;
-  align-items: center;
+margin: 16px 32px;
   fill: var(--icon-color);
 }
 .client-sublist-icon:hover,
