@@ -114,7 +114,8 @@ img {
 }
 
 .info{
-fill: currentColor;margin-right: 10px}
+fill: currentColor;
+margin-right: 10px}
 
 
 
@@ -375,20 +376,19 @@ height: 92px;
   border: 1px solid var(--icon-color);
 box-sizing: border-box;
 border-radius: 4px;
- 
+ align-items: center;
 }
 
 .client-sublist-icon{
-margin: 16px 32px;
   fill: var(--icon-color);
 }
-.client-sublist-icon:hover,
-.client-sublist-icon:focus{
-  fill: var(--accent-color);
-}
+
 
 .client-link:hover,
 .client-link:focus{border-color: var(--accent-color);}
+
+.client-link:hover .client-sublist-icon,
+.client-link:focus .client-sublist-icon{fill: var(--accent-color);}
 
 /* Футер */
 .footer-address {align-items: baseline;
